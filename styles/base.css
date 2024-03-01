@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto;
+    grid-template-rows: auto 170px auto 120px;
+    margin: 0;
+}
+header{
+    background: #05668d;
+    padding: 0px 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+    font-size: 1.4rem;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    vertical-align: -webkit-baseline-middle;
+}
+li {
+    /*height: 40px;*/
+    flex: 1;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px auto auto;
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+main h1{
+    border-bottom: 2px solid #000;
+    font-size: 1.05rem;
+    text-align: center;
+    height: 20px;
+    margin-top: 18px;
+}
+.card{
+    border: 1px solid #5b5959;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.card ul li{
+    text-align: justify;
+}
+h2{
+    background-color: #679436;
+    margin: 0;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px 7px 0 0;
+}
+.weather{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer{
+    text-align: center;
+    background: #05668d;
+    margin-top: 2rem;
+    color: #fff;
+}
