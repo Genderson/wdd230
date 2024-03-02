@@ -3,27 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genderson Barinas Guio - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development assignment for week01. Created by Genderson Barinas Guio as part of the course assignment portal activity ">
-    <meta name="author" content="Genderson Barinas Guio" />
+    <meta name="author" content="Genderson Barinas Guio">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Genderson Barinas Guio" width="75" height="100" >
+        <img src="images/profile.jpg" alt="Genderson Barinas Guio" >
         <span>Genderson Barinas Guio</span>
     </header>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
+            <li class="active" ><a href="">Home</a></li>
             <li><a href="">Chamber</a></li>
             <li><a href="">Site Plan</a></li>
             <li><a href="">Form</a></li>
@@ -53,8 +49,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy;2024 Genderson Barinas Guio Colombia</p>
-        <p id="lastModified">Last modification</p>
-    </footer>    
+        <p>&copy;<span id="currentyear"></span> Genderson Barinas Guio Colombia</p>
+        <p>Last modification <span id="lastmodified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>  
 </body>
 </html>

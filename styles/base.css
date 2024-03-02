@@ -15,6 +15,7 @@ header{
     gap: 2rem;
     font-size: 2rem;
     color: #fff;
+    padding: 20px;
 }
 ul{
     list-style-type: none;
@@ -32,13 +33,19 @@ nav ul li a{
     color: #fff;
     vertical-align: -webkit-baseline-middle;
 }
+nav ul li {
+    height: 43px;
+}
+nav .active{
+    background-color: #679436;
+}
 li {
-    /*height: 40px;*/
     flex: 1;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 main{
     display: grid;
     grid-template-columns: 1fr;
