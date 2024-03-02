@@ -17,6 +17,9 @@ header{
     color: #fff;
     padding: 20px;
 }
+img{
+    border-radius: 6px;
+}
 ul{
     list-style-type: none;
 }
