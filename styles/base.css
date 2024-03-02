@@ -38,6 +38,7 @@ nav ul li {
 }
 nav .active{
     background-color: #679436;
+    font-weight: bold;
 }
 li {
     flex: 1;
