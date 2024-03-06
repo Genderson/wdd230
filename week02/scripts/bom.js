@@ -16,8 +16,8 @@ button.addEventListener('click', () => {
         deleteButton.addEventListener('click', () => {
             list.removeChild(li);
             input.focus();
-            input.value = '';
         });
+        input.value = '';
     }
     else{
         alert('Please enter a valid scripture');
