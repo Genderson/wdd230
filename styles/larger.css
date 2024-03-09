@@ -5,17 +5,40 @@
     header{
         padding: 0px;
     }
-    nav{
+
+    /*nav{
         height: 0px;
     }
     nav ul{
         justify-content: space-around;
         flex-direction: row;
     }
-    li {
+        li {
         flex: 1;
         text-align: center;
     }
+*/
+    #hamburger-menu {
+        display: none;
+    }
+
+    ul.navigation, ul.navigation.open{
+        display: flex;
+    }
+
+    ul.navigation li {
+        flex: 1;
+        text-align: center;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul.navigation li a {
+        display: contents;
+    }
+
     main{
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -45,4 +68,13 @@
         flex-direction: column;
         margin-top: 4rem;
     }
+  /*  
+    .navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}*/
 }

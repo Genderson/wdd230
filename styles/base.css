@@ -3,7 +3,7 @@ body{
     display: grid;
     height: 100vh;
     grid-template-columns: auto;
-    grid-template-rows: auto 170px auto 120px;
+    grid-template-rows: auto auto auto 120px;
     margin: 0;
 }
 header{
@@ -20,36 +20,49 @@ header{
 img{
     border-radius: 6px;
 }
+
 ul{
     list-style-type: none;
 }
-nav ul{
-    display: flex;
-    font-size: 1.4rem;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
+nav{
     background-color: #000;
 }
-nav ul li a{
+#hamburger-menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #fff;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+ul.navigation li a{
     text-decoration: none;
     color: #fff;
-    vertical-align: -webkit-baseline-middle;
+    display: block;
+    padding: 0.50rem 3vw;
 }
-nav ul li {
-    height: 43px;
-}
-nav .active{
+nav .active, ul.navigation li:hover{
     background-color: #4a7d12;
     font-weight: bold;
+    cursor: pointer;
 }
-li {
-    flex: 1;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+ul.navigation{
+    display: none;
+    padding-left: 0px;
+    margin: 0;
+}
+ul.navigation.open {
+	display: block;
 }
 
+#hamburger-menu::before {
+	content: "☰";
+}
+
+#hamburger-menu.open::before {
+	content: "X";
+}
 main{
     display: grid;
     grid-template-columns: 1fr;
@@ -72,6 +85,9 @@ main h1{
 }
 .card ul li{
     text-align: justify;
+}
+section ul{
+    padding: 0px 20px;
 }
 h2{
     background-color: #4a7d12;
