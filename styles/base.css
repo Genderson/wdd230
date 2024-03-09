@@ -108,6 +108,24 @@ h2{
 footer{
     text-align: center;
     background: #055373;
-    margin-top: 2rem;
+    color: #fff;
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+.card-dark-mode{
+    border: 1px solid #fff !important;
+}
+.li-dark-mode{
+    border:1px solid #fff;
+    height: 52px !important;
+}
+.card-dark-mode a{
     color: #fff;
 }
