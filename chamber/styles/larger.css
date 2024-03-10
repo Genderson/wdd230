@@ -17,6 +17,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        font-weight: bold;
     }
 
     ul.navigation li a {
