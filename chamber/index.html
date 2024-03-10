@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genderson Barinas Guio - WDD 230 - Boyaca Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course project. Boyaca Chamber of Commerce">
+    <meta name="author" content="Genderson Barinas Guio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="WDD 230 - Web Frontend Development Project Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/Genderson/wdd230/blob/main/images/homesocialmedia.jpg">
+    <meta property="og:url" content="https://genderson.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="chamber logo">
+        <h1>Boyaca Chamber commerce</h1>
+    </header>
+    <nav>
+        <button id="hamburger-menu"></button>
+        <ul class="navigation">
+            <li class="active" ><a href="">Home</a></li>
+            <li><a href="">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img class="hero" src="images/hero3.jpg" alt="hero background">
+        <a id="join-button">Join Now</a>
+        <p class="main-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 
+            to make a type specimen book. It has survived not only five centuries, but also the leap into 
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the 
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+            like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <div id="main-services">
+            <h2>Advertisements</h2>
+            <div id="services">
+                <section class="card">
+                    <h3>Lorem Ipsum 1</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <a>Show more...</a>
+                </section>
+                <section class="card">
+                    <h3>Lorem Ipsum 2</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <a>Show more...</a>
+                </section>
+                <section class="card">
+                    <h3>Lorem Ipsum 3</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <a>Show more...</a>
+                </section>
+                <section class="card">
+                    <h3>Lorem Ipsum 4</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <a>Show more...</a>
+                </section>
+            </div>
+        </div>
+
+        <h2 id="event-title">Events</h2>
+        <img id="image-event" src="images/event.jpg" alt="hero background" >
+        <section id="event-description">
+            <h3>Event 1</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 
+                to make a type specimen book. It has survived not only five centuries, but also the leap into 
+                electronic typesetting, remaining essentially unchanged.</p>
+        </section>
+
+        <section id="weather" class="card">
+            <h2>Weather</h2>
+            <div>
+                <div>Bogota, Colombia</div>
+                <div>21C - Sunshine</div>
+                <div>Page Visits: 27</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-card">
+            <p>Contact us
+                Phone: (310) 2417512<br>
+                address: cra 45bis # 154 - 17 
+            </p>
+        </section>
+        <section class="footer-card">
+            <p>&copy;<span id="currentyear"></span> Genderson Barinas Guio Colombia</p>
+            <p>Chamber Project for WDD230 BYUI class</p>
+            <p>Last modification <span id="lastmodified"></span></p>
+        </section>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

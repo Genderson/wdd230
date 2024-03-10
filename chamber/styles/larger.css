@@ -1,0 +1,25 @@
+@media screen and (min-width: 640px) {
+    body{
+        grid-template-rows: auto 55px auto auto auto auto 120px;
+    }
+    #hamburger-menu {
+        display: none;
+    }
+
+    ul.navigation, ul.navigation.open{
+        display: flex;
+    }
+
+    ul.navigation li {
+        flex: 1;
+        text-align: center;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul.navigation li a {
+        display: contents;
+    }
+}
