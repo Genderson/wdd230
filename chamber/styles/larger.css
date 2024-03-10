@@ -18,6 +18,7 @@
         align-items: center;
         justify-content: center;
         font-weight: bold;
+        font-size: 1.2rem;
     }
 
     ul.navigation li a {
