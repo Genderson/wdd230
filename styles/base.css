@@ -17,7 +17,7 @@ header{
     color: #fff;
     padding: 20px;
 }
-img{
+header img{
     border-radius: 6px;
 }
 
@@ -66,7 +66,7 @@ ul.navigation.open {
 main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px auto auto;
+    grid-template-rows: auto 60px auto auto;
     padding-left: 1rem;
     padding-right: 1rem
 }
@@ -77,6 +77,24 @@ main h1{
     text-align: center;
     height: 20px;
     margin-top: 18px;
+}
+.hero{
+    grid-row: 1 / 2;
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero span {
+    position: absolute;
+    left: 5px;
+    top: 10%;
+    color: #fff;
+    padding: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 0.8rem;
 }
 .card{
     border: 1px solid #5b5959;
