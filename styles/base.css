@@ -66,7 +66,7 @@ ul.navigation.open {
 main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 60px auto auto;
+    grid-template-rows: auto 60px auto auto auto;
     padding-left: 1rem;
     padding-right: 1rem
 }
@@ -123,6 +123,12 @@ h2{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+iframe{
+    border: 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
 footer{
     text-align: center;
     background: #055373;

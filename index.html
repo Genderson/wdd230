@@ -24,7 +24,7 @@
 </head>
 <body>
     <header>
-        <img src="images/profile.webp" alt="Genderson Profile" width="100" height="125" >
+        <img src="images/profile.webp" alt="Genderson Profile" loading="lazy" width="100" height="125" >
         <span>Genderson Barinas Guio</span>
         <div id="mode">🕶️</div>
     </header>
@@ -44,7 +44,7 @@
             <picture>
               <source srcset="images/hero-small.webp" media="(max-width: 400px)">
               <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
-              <img src="images/hero-large.webp" alt="table setting" width="1500" height="750">
+              <img src="images/hero-large.webp" alt="table setting" width="1500" height="750" loading="lazy" >
             </picture>
             <span>Salt Lake City Temple</span>
           </div>
@@ -72,9 +72,15 @@
             <div class="weather">
                 <div>Bogota, Colombia</div>
                 <div>21C - Sunshine</div>
-                <div>Page Visits: 27</div>
+                <p>
+                    <span class="label">Number of Visits: </span>
+                    <span class="visits"></span>
+                </p>
             </div>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31809.08269346508!2d-74.06937606503408!3d4.746523870256961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoSwgQm9nb3Rh!5e0!3m2!1sen!2sco!4v1710467661684!5m2!1sen!2sco" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span> Genderson Barinas Guio Colombia</p>
