@@ -48,7 +48,6 @@ ul.navigation li a{
 }
 ul.navigation li:hover{
     background-color: rgba(255, 255, 255, 0.4);
-    cursor: pointer;
 }
 ul.navigation{
     display: none;
@@ -144,25 +143,17 @@ footer{
     width: 240px;
 }
 
-/*discover page*/
+/* discover page */
 #discover-main{
     margin-top: 20px;
     display: grid;
     grid-template-columns: auto;
 }
-/*#sidebar {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    row-gap: 20px;
-}*/
 
 #sidebar {
     display: flex;
     flex-wrap: wrap;
     row-gap: 20px;
-    /* flex-direction: column; */
-    /* padding-left: 9%; */
     justify-content: space-around;
 }
 
@@ -175,17 +166,21 @@ footer{
     width: 80%;
 }
 #photos {
-    background-color: green;
+    text-align: center;
 }
 .container {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 20px;
     border: 1px solid #ccc;
-    /*width: 400px;*/
+    width: 400px;
   }
   .container img{
     width: 100%;
     background: #000;
     height: auto;
-    /*animation: fade 15s;*/
   }
+
+  .container img:hover {
+    opacity: .6;
+    box-shadow: 0 0 50px #333;
+}
