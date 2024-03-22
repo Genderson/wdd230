@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #055373;
+    --secondary-color: #4a7d12;
+    --black-color: #000;
+    --white-color: #fff;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     display: grid;
@@ -7,14 +14,14 @@ body{
     margin: 0;
 }
 header{
-    background: #055373;
+    background: var(--primary-color);
     padding: 0px 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     font-size: 1.6rem;
-    color: #fff;
+    color: var(--white-color);
     padding: 20px;
 }
 header img{
@@ -25,25 +32,25 @@ ul{
     list-style-type: none;
 }
 nav{
-    background-color: #000;
+    background-color: var(--black-color);
 }
 #hamburger-menu {
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
-	color: #fff;
+	color: var(--white-color);
     cursor: pointer;
     text-align: left;
     width: 100%;
 }
 ul.navigation li a{
     text-decoration: none;
-    color: #fff;
+    color: var(--white-color);
     display: block;
     padding: 0.50rem 3vw;
 }
 nav .active, ul.navigation li:hover{
-    background-color: #4a7d12;
+    background-color: var(--secondary-color);
     font-weight: bold;
     cursor: pointer;
 }
@@ -72,7 +79,7 @@ main{
 }
 
 main h1{
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid var(--black-color);
     font-size: 1.05rem;
     text-align: center;
     height: 20px;
@@ -91,7 +98,7 @@ main h1{
     position: absolute;
     left: 5px;
     top: 10%;
-    color: #fff;
+    color: var(--white-color);
     padding: 0.8rem;
     background-color: rgba(0, 0, 0, 0.8);
     font-size: 0.8rem;
@@ -108,11 +115,11 @@ section ul{
     padding: 0px 20px;
 }
 h2{
-    background-color: #4a7d12;
+    background-color: var(--secondary-color);
     margin: 0;
     padding-bottom: 7px;
     padding-top: 7px;
-    color: #fff;
+    color: var(--white-color);
     text-align: center;
     border-radius: 7px 7px 0 0;
 }
@@ -131,8 +138,8 @@ iframe{
 
 footer{
     text-align: center;
-    background: #055373;
-    color: #fff;
+    background: var(--primary-color);
+    color: var(--white-color);
 }
 
 #mode {
@@ -144,14 +151,14 @@ footer{
 	font-size: 2rem;
 }
 .card-dark-mode{
-    border: 1px solid #fff !important;
+    border: 1px solid var(--white-color) !important;
 }
 .li-dark-mode{
-    border:1px solid #fff;
+    border:1px solid var(--white-color);
     height: 52px !important;
 }
 .card-dark-mode a{
-    color: #fff;
+    color: var(--white-color);
 }
 
 /*----------- FORM STYLING --------------*/
@@ -164,7 +171,7 @@ footer{
 
 .wf1 div{
     padding-top: 1rem;
-    color:#000;
+    color:var(--black-color);
     font-size: 1.1rem; 
 }
 
@@ -179,7 +186,7 @@ footer{
     border-radius:6px;
     padding: .75rem;
     width:100%;
-    max-width: 400px;
+    max-width: 350px;
     appearance: none;
 }
 .wf1 input[type="range"]
@@ -201,12 +208,12 @@ footer{
 .wf1 input[type="submit"]
 {
     border: none;
-    background: #000;
-    color: #fff;
+    background: var(--black-color);
+    color: var(--white-color);
     border-radius: 6px;
     padding: .8rem;
-    width: 96%;
-    max-width: 427px;
+    width: 100%;
+    max-width: 378px;
     box-shadow: 1px 1px 4px #999;
     cursor: pointer;
 }
@@ -215,5 +222,14 @@ footer{
     border-bottom: 8px solid #d91617;
 }
 .wf1 input:required:valid{
-    border-bottom: 8px solid #4a7d12;
+    border-bottom: 8px solid var(--secondary-color);
 }
+
+#range-content-response{
+    display: flex;
+    padding-bottom: 1rem;
+}
+#pageratingvalue{
+    padding-top: 0;
+}
+

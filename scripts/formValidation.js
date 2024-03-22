@@ -23,12 +23,15 @@ rangeInput.addEventListener('input', function() {
     valueDisplay.textContent = this.value;
 });
 
+const emailInput = document.querySelector('#user-email');
+const emailPattern = /^[a-zA-Z0-9._%+-]+@byui\.edu$/;
 
-document.querySelector('#email').addEventListener('input', () => {
-    const email = this.value;
-    if (!email.endsWith('@byui.edu')) {
-        this.setCustomValidity('Please enter an email address from the byui.edu domain');
-    } else {
-        this.setCustomValidity('');
-    }
+emailInput.addEventListener('input', () => {
+    const email = emailInput.value;
+
+    if (!emailPattern.test(emailInput.value)) {
+        emailInput.setCustomValidity('Enter a valid email address ending with @byui.edu');
+      } else {
+        emailInput.setCustomValidity('');
+      }
 });

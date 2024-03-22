@@ -46,11 +46,11 @@
             <label>Confirm Password* <input type="password" id="confirm-password" name="confirm-password" required ></label>
             <div id="feedback"></div>
             <label>Email* 
-                <input type="email" id="email" name="email" required placeholder="someone@byui.edu" 
-                pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
-                title="Please enter a valid email address">
+                <input type="email" id="user-email" name="user-email" required title="Enter a valid email address ending with @byui.edu">
             </label>
-            <label>Page Rating <input type="range" id="page-rating" name="page-rating" min="1" max="10" step="1" list="rangevalues" ></label>
+            <label>Page Rating <input type="range" id="page-rating" 
+                name="page-rating" min="1" max="10" 
+                step="1" value="1" list="rangevalues" ></label>
             <datalist id="rangevalues">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -63,7 +63,7 @@
                 <option value="9">9</option>
                 <option value="10">10</option>
             </datalist>
-            <div id="pageratingvalue"></div>
+            <div id="range-content-response">Value selected: <div id="pageratingvalue">1</div></div>
             <input type="submit" value="Register me">
         </form>
     </main>
