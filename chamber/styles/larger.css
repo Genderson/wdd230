@@ -78,7 +78,8 @@
     }
 
     textarea{
-        max-width: 374px;
+        width: 100%;
+        max-width: 372px;
     }
     #membership-level{
         padding-left: 9%;

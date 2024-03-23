@@ -219,7 +219,7 @@ footer{
     border: 2px solid #ccc;
     border-radius:6px;
     padding: .75rem;
-    width:100%;
+    width: 93%;
     max-width: 350px;
     appearance: none;
 }
@@ -238,8 +238,8 @@ footer{
 }
 
 textarea {
-    width: 106%;
-    /* max-width: 400px; */
+    width: 100%;
+    max-width: 370px;
     height: 155px;
     /* padding: 12px 20px; */
     /* box-sizing: border-box; */
@@ -258,7 +258,7 @@ textarea {
     color: #fff;
     border-radius: 6px;
     padding: .8rem;
-    width: 108%;
+    width: 100%;
     max-width: 378px;
     box-shadow: 1px 1px 4px #999;
     cursor: pointer;
@@ -322,12 +322,12 @@ textarea {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.container h1 {
     color: #333;
     text-align: center;
 }
 
-p {
+.container p {
     color: #666;
     font-size: 18px;
     text-align: center;
