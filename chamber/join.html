@@ -40,25 +40,27 @@
             <label>First Name<span class="mandatory">*</span><input type="text" id="fname" name="fname" required ></label>
             <label>Last Name<span class="mandatory">*</span><input type="text" id="lname" name="lname" required ></label>
             <label>Title<input type="text" id="title" name="title" 
-                pattern="[a-zA-Z -]{7,}" title="Please enter a valid value"></label>
+                pattern="[a-zA-Z \-]{7,}" title="Please enter a valid value"></label>
             <label>Email<span class="mandatory">*</span>
                 <input type="email" id="email" name="email" required title="Enter a valid email address" placeholder="test@gmail.com">
             </label>
             <label>Mobile<span class="mandatory">*</span><input type="tel" id="mobile" name="mobile" required ></label>
-            <label>Organization's Name<span class="mandatory">*</span><input type="text" id="organization" name="organization" required ></label>
+            <label>Organization's Name<span class="mandatory">*</span>
+                <input type="text" id="organization" name="organization" required >
+            </label>
             
             <div>Membership Level</div>
             <label class="membership-label">
-                <input type="radio" name="membership" value="NPMembership"> NP Membership
+                <input type="radio" id="npmembership" name="membership" value="NPMembership"> NP Membership
             </label>
             <label class="membership-label">
-                <input type="radio" name="membership" value="BronzeMembership"> Bronze Membership
+                <input type="radio" id="bronzemembership" name="membership" value="BronzeMembership"> Bronze Membership
             </label>
             <label class="membership-label">
-                <input type="radio" name="membership" value="SilverMembership"> Silver Membership
+                <input type="radio" id="silvermembership" name="membership" value="SilverMembership"> Silver Membership
             </label>
             <label class="membership-label">
-                <input type="radio" name="membership" value="GoldMembership"> Gold Membership
+                <input type="radio" id="goldmembership" name="membership" value="GoldMembership"> Gold Membership
             </label>
 
             <label class="organization-label" >Organization's Description <textarea id="organization" name="organization" ></textarea></label>
