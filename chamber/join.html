@@ -39,7 +39,7 @@
         <form method="get" action="thankyou.html" class="join-form">
             <label>First Name<span class="mandatory">*</span><input type="text" id="fname" name="fname" required ></label>
             <label>Last Name<span class="mandatory">*</span><input type="text" id="lname" name="lname" required ></label>
-            <label>Position <input type="text" id="position" name="position" 
+            <label>Title<input type="text" id="title" name="title" 
                 pattern="[a-zA-Z -]{7,}" title="Please enter a valid value"></label>
             <label>Email<span class="mandatory">*</span>
                 <input type="email" id="email" name="email" required title="Enter a valid email address" placeholder="test@gmail.com">
@@ -63,30 +63,55 @@
 
             <label class="organization-label" >Organization's Description <textarea id="organization" name="organization" ></textarea></label>
 
-            <input type="hidden" id="timestamp" name="timestamp" required >
+            <input type="hidden" id="timestamp" name="timestamp" >
 
             <input type="submit" value="Register me">
         </form>
         <div id="membership-level">
             <section class="membership-card">
                 <h2>NP Membership</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing  and typesetting industry</p>
-                <a href="#">Show more...</a>
+                <h3>Benefits</h3>
+                <ul>
+                    <li>Access to the platform</li>
+                    <li>Directory of partners</li>
+                    <li>Events (full price)</li>
+                </ul>
+                <span><strong>Price: </strong></span><span>$10</span>
             </section>
             <section class="membership-card">
                 <h2>Bronze Membership</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                <a href="#">Show more...</a>
+                <h3>Benefits</h3>
+                <ul>
+                    <li>Access to the platform</li>
+                    <li>Directory of partners</li>
+                    <li>Events (10% discount)</li>
+                    <li>Basic training</li>
+                </ul>
+                <span><strong>Price: </strong></span><span>$15</span>
             </section>
             <section class="membership-card">
                 <h2>Silver Membership</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                <a href="#">Show more...</a>
+                <h3>Benefits</h3>
+                <ul>
+                    <li>Access to the platform</li>
+                    <li>Directory of partners</li>
+                    <li>Events (15% discount)</li>
+                    <li>Basic training</li>
+                    <li>advertising </li>
+                </ul>
+                <span><strong>Price: </strong></span><span>$20</span>
             </section>
             <section class="membership-card">
                 <h2>Gold Membership</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                <a href="#">Show more...</a>
+                <h3>Benefits</h3>
+                <ul>
+                    <li>Access to the platform</li>
+                    <li>Directory of partners</li>
+                    <li>Events (20% discount)</li>
+                    <li>Advanced Training</li>
+                    <li>advertising</li>
+                </ul>
+                <span><strong>Price: </strong></span><span>$25</span>
             </section>
         </div>
     </main>
@@ -104,5 +129,6 @@
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/currentdate.js"></script>
 </body>
 </html>
