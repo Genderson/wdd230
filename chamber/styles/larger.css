@@ -65,4 +65,25 @@
         padding-left: 9%;
         justify-content: normal;
     }
+
+    /*join page*/
+    #join-main form{
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }
+    #join-main {
+        display: grid;
+        grid-template-columns: 40% auto;
+        /* justify-content: space-around;*/
+    }
+
+    textarea{
+        max-width: 374px;
+    }
+    #membership-level{
+        padding-left: 9%;
+    }
+    .membership-card {
+        max-width: 440px;
+    }
 }

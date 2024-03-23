@@ -184,3 +184,124 @@ footer{
     opacity: .6;
     box-shadow: 0 0 50px #333;
 }
+
+/*join page*/
+#join-main {
+    display: grid;
+    grid-template-columns: auto;
+    /* justify-content: space-around;*/
+}
+
+/*----------- FORM STYLING --------------*/
+.join-form label{
+    display: block;
+    padding-top: 1rem;
+    color: #000;
+    font-size: .95rem;    
+    font-weight: bold;
+}
+
+.join-form div{
+    padding-top: 1rem;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.join-form input[type="text"],
+.join-form input[type="email"],
+.join-form input[type=password],
+.join-form input[type=tel]
+{
+    background-color: #eee;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius:6px;
+    padding: .75rem;
+    width:100%;
+    max-width: 350px;
+    appearance: none;
+}
+.join-form input[type="range"]
+{
+    width:100%;
+    max-width: 220px;
+}
+.organization-label{
+    display: grid !important;
+}
+
+.membership-label{
+    font-weight: normal !important;
+}
+
+textarea {
+    width: 106%;
+    /* max-width: 400px; */
+    height: 155px;
+    /* padding: 12px 20px; */
+    /* box-sizing: border-box; */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    /* font-size: 16px; */
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.join-form input[type="submit"]
+{
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 108%;
+    max-width: 378px;
+    box-shadow: 1px 1px 4px #999;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.join-form input:required{
+    border-bottom: 8px solid #d91617;
+}
+.join-form input:required:valid{
+    border-bottom: 8px solid #4a7d12;
+    border-top: 2px solid #4a7d12;
+    border-left: 2px solid #4a7d12;
+    border-right: 2px solid #4a7d12;
+    /*background: #d9f3de;*/
+}
+.mandatory{ 
+    color: #d91617;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#membership-level {
+    flex-direction: column;
+    padding-left: 5%;
+    justify-content: normal;
+    display: flex;
+    row-gap: 20px;
+    margin-top: 2rem;
+}
+
+#join-main form {
+    padding-left: 1rem;
+    padding-right: 2.9rem;
+}
+
+.membership-card {
+    background: #ededed;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #c3c0c0;
+    width: 84%;
+}
+
+.membership-card:last-child{
+    margin-bottom: 2rem;
+}
