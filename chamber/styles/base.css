@@ -385,3 +385,7 @@ textarea {
     font-weight: bold;
     word-wrap: break-word;
 }
+
+#directory-container section h2{
+    font-size: 1.1rem;
+}
