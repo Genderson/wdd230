@@ -1,0 +1,60 @@
+{
+    "members":[
+        {
+            "name":"Aredian SelfCare Studios",
+            "address":"cra 23 # 744 45",
+            "phone":"(321) 5442015",
+            "webSiteUrl":"http://",
+            "imageFile":"images//AredianSelfCareStudios_350x350.webp",
+            "membershipLevel":"Golden Signature"
+        },
+        {
+            "name":"Caseys Corner",
+            "address":"cra 45 # 21 67",
+            "phone":"(356) 5442015",
+            "webSiteUrl":"http://",
+            "imageFile":"images//CaseysCorner_350x350.webp",
+            "membershipLevel":"Golden Signature"
+        },
+        {
+            "name":"Artisanal foods",
+            "address":"cra 23 # 45 12",
+            "phone":"(356) 5442015",
+            "webSiteUrl":"http://",
+            "imageFile":"images//Gourmade_350x350.webp",
+            "membershipLevel":"Golden Signature"
+        },
+        {
+            "name":"Lashes By Georgia",
+            "address":"cra 37 # 41 79",
+            "phone":"(317) 5442015",
+            "webSiteUrl":"http://",
+            "imageFile":"images//LashesByGeorgia_350x350.webp",
+            "membershipLevel":"Golden Signature"
+        },
+        {
+            "name":"Macadamia Desserts",
+            "address":"cra 24 # 78 79",
+            "phone":"(317) 5442015",
+            "webSiteUrl":"http://",
+            "imageFile":"images//MacadamiaDesserts_350x350.webp",
+            "membershipLevel":"Golden Signature"
+        },
+        {
+            "name":"Ruthless",
+            "address":"cra 14 # 78 79",
+            "phone":"(347) 5442015",
+            "webSiteUrl":"http://",
+            "imageFile":"images//Ruthless_compressed-350x350-1.webp",
+            "membershipLevel":"Golden Signature"
+        },
+        {
+            "name":"Strabell",
+            "address":"cra 74 # 78 21",
+            "phone":"(312) 5442015",
+            "webSiteUrl":"http://",
+            "imageFile":"images//Strabell_Compressed-350x350-1.webp",
+            "membershipLevel":"Golden Signature"
+        }
+    ]
+}
