@@ -47,7 +47,7 @@
         flex-wrap: nowrap;
     }
 
-    /* discover page */
+    /*discover page*/
     #discover-main{
         grid-template-columns: 30% auto;
     }
@@ -74,7 +74,6 @@
     #join-main {
         display: grid;
         grid-template-columns: 40% auto;
-        /* justify-content: space-around;*/
     }
 
     textarea{
@@ -87,7 +86,4 @@
     .membership-card {
         max-width: 440px;
     }
-
-    /* member page  */
-
 }

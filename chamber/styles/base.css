@@ -189,7 +189,6 @@ footer{
 #join-main {
     display: grid;
     grid-template-columns: auto;
-    /* justify-content: space-around;*/
 }
 
 /*----------- FORM STYLING --------------*/
@@ -241,12 +240,9 @@ textarea {
     width: 100%;
     max-width: 370px;
     height: 155px;
-    /* padding: 12px 20px; */
-    /* box-sizing: border-box; */
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    /* font-size: 16px; */
     resize: none;
     margin-bottom: 20px;
 }
@@ -273,7 +269,6 @@ textarea {
     border-top: 2px solid #4a7d12;
     border-left: 2px solid #4a7d12;
     border-right: 2px solid #4a7d12;
-    /*background: #d9f3de;*/
 }
 .mandatory{ 
     color: #d91617;
@@ -334,7 +329,6 @@ textarea {
 }
 
 /*directory page*/
-
 #directory-main{
     padding: 2rem;
 }
@@ -372,7 +366,7 @@ textarea {
 	margin: 0 1rem;
 }
 .list section img {
-	display: none; /* smaller viewports only */
+	display: none;
 }
 .list section:nth-child(even) {
     background-color: rgba(74, 186, 214, 0.4);
