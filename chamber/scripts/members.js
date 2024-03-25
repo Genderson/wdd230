@@ -21,7 +21,7 @@ async function getMembers(url) {
         logo.setAttribute('width', '150');
         logo.setAttribute('height', '150');
 
-        let title = document.createElement('h3');
+        let title = document.createElement('h2');
         title.textContent = member.name;
 
         let address = document.createElement('p');

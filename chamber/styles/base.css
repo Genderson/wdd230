@@ -389,4 +389,5 @@ textarea {
 #directory-container section a{
     color: #000051;
     font-weight: bold;
+    word-wrap: break-word;
 }

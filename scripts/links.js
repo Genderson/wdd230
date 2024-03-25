@@ -8,7 +8,7 @@ async function getLinks(url) {
     displayLinks(data.weeks);
   }
   
-  /*getLinks(url);*/
+  getLinks(url);
 
   const displayLinks = (weeks) =>{
     weeks.forEach((week) =>{
