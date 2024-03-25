@@ -1,0 +1,89 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"week01/chamber-site-plan.html",
+            "title":"Chamber site plan"
+          },
+          {
+            "url":"week01/holygrail.html",
+            "title":"Holygrail"
+          },
+          {
+            "url":"week01/media-query.html",
+            "title":"media query"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"https://codepen.io/Genderson-Barinas/pen/JjVYYYY",
+            "title":"Hamburger Menu"
+          },
+          {
+            "url":"week02/bom.html",
+            "title":"Scripture activity"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"week03/images/landscape.webp",
+            "title":"WebP"
+          },
+          {
+            "url":"week03/lazyload.html",
+            "title":"Lazyload"
+          },
+          {
+            "url":"week02/bom.html",
+            "title":"BOM"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"https://codepen.io/Genderson-Barinas/pen/VwNmRwx",
+            "title":"pseudo-class"
+          },
+          {
+            "url":"week04/images/css-combinators.jpg",
+            "title":"css combinator"
+          },
+          {
+            "url":"week04/tablebuild.html",
+            "title":"tablebuild"
+          },
+          {
+            "url":"Form-start/index.html",
+            "title":"HTML Form exercise"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://codepen.io/Genderson-Barinas/pen/ExJmrqx",
+            "title":"pseudo-elements"
+          },
+          {
+            "url":"week05/new-ward-members.json",
+            "title":"json file"
+          },
+          {
+            "url":"week05/prophets.html",
+            "title":"fecth activity"
+          }
+        ]
+      }
+    ]
+}
