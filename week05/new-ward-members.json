@@ -1,0 +1,18 @@
+{
+    "familyName": "Mora",
+    "movedIntoWard" :"03/04/2024",
+    "numberPeople": 2,
+    "visited": false,
+    "familyMembers": [
+        {
+            "name": "Carolina",
+            "Gender": "Female",
+            "BirthDate": "02/04/1987"
+        },
+        {
+            "name": "Pedro",
+            "Gender": "Male",
+            "BirthDate": "07/03/1987"
+        }
+    ]
+}
