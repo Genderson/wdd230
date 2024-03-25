@@ -5,7 +5,7 @@ async function getLinks(url) {
     const response = await fetch(url);
     const data = await response.json();
     console.log(data);
-    displayLinks(data);
+    displayLinks(data.weeks);
   }
   
   getLinks(url);
@@ -20,6 +20,7 @@ async function getLinks(url) {
             menuLink.href = link.url;
             menuLink.textContent = link.title;
             menuOption.appendChild(menuLink);
+            menuOption.append(" | ");
         });
 
         activities.appendChild(menuOption);
