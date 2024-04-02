@@ -37,7 +37,7 @@
     </nav>
     <main id="index-main">
         <img class="hero" src="images/hero.jpg" alt="hero background">
-        <a id="join-button">Join Now</a>
+        <a id="join-button" href="join.html" >Join Now</a>
         <p class="main-description">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 
@@ -48,7 +48,10 @@
         </p>
         <div id="main-services">
             <h2>Company spotlight</h2>
-            <div id="services">
+            <div id="advertisement-container" class="grid">
+            </div>
+
+            <!--<div id="services">
                 <section class="card">
                     <h3>Lorem Ipsum 1</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -69,7 +72,7 @@
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                     <a>Show more...</a>
                 </section>
-            </div>
+            </div>-->
         </div>
 
         <h2 id="event-title">Events</h2>
@@ -83,11 +86,24 @@
         </section>
 
         <section id="weather" class="card">
-            <h2>Weather</h2>
+            <!--<h2>Weather</h2>
             <div>
                 <div>Bogota, Colombia</div>
                 <div>21C - Sunshine</div>
                 <div>Page Visits: 27</div>
+            </div>-->
+            <div class="weather">
+                <h2>Weather</h2>
+                <div>Bogota, Colombia</div>
+                <div>
+                    <img id="weather-icon" src="https://openweathermap.org" alt="openweathermap">
+                    <span id="current-temp"></span>
+                    <span id="weather-description"></span>
+                </div>
+                <!--<p>
+                    <span class="label">Number of Visits: </span>
+                    <span class="visits"></span>
+                </p>-->
             </div>
         </section>
     </main>
@@ -105,5 +121,7 @@
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/advertisements.js"></script>
 </body>
 </html>

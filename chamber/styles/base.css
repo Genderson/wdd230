@@ -84,6 +84,7 @@ ul.navigation.open {
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 #join-button:hover{
@@ -130,6 +131,17 @@ ul.navigation.open {
     margin-bottom: 30px;
     min-width: 180px;
 }
+.weather{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#current-temp{
+    display: block;
+}
+
 footer{
     text-align: center;
     background: #023047;

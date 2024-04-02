@@ -1,11 +1,15 @@
 const url = "https://genderson.github.io/wdd230/chamber/data/members.json";
-const container = document.querySelector("#directory-container");
+const container = document.querySelector("#advertisement-container");
 
 async function getMembers(url) {
     const response = await fetch(url);
     const data = await response.json();
 
-    displayMembers(data.members);
+    const memberAdvertisement = data.members.filter(member => 
+        member.membershipLevel == "Silver Membership" || 
+        member.membershipLevel == "Gold Membership");
+
+    displayMembers(memberAdvertisement);
   }
   
   getMembers(url);
@@ -13,6 +17,7 @@ async function getMembers(url) {
   const displayMembers = (members) =>{
     members.forEach((member) =>{
         let memberSection = document.createElement('section');
+        memberSection.setAttribute('class', 'card');
         
         let logo = document.createElement('img');
         logo.setAttribute('src', member.imageFile);
@@ -46,23 +51,3 @@ async function getMembers(url) {
         container.appendChild(memberSection);
     });
   }
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("#directory-container");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
-
