@@ -9,7 +9,9 @@ async function getMembers(url) {
         member.membershipLevel == "Silver Membership" || 
         member.membershipLevel == "Gold Membership");
 
-    displayMembers(memberAdvertisement);
+    const shuffledArray = shuffleArray(memberAdvertisement);
+
+    displayMembers(shuffledArray.slice(0, 3));
   }
   
   getMembers(url);
@@ -17,18 +19,21 @@ async function getMembers(url) {
   const displayMembers = (members) =>{
     members.forEach((member) =>{
         let memberSection = document.createElement('section');
-        memberSection.setAttribute('class', 'card');
+        memberSection.setAttribute('class', 'advertisement-card');
         
         let logo = document.createElement('img');
         logo.setAttribute('src', member.imageFile);
         logo.setAttribute('alt', `logo of ${member.name}`);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '150');
-        logo.setAttribute('height', '150');
+        logo.setAttribute('width', '100');
+        logo.setAttribute('height', '100');
 
         let title = document.createElement('h2');
         title.textContent = member.name;
 
+        let message = document.createElement('p');
+        message.textContent = member.message;
+        
         let address = document.createElement('p');
         address.textContent = member.address;
 
@@ -44,6 +49,7 @@ async function getMembers(url) {
 
         memberSection.appendChild(logo);
         memberSection.appendChild(title);
+        memberSection.appendChild(message);
         memberSection.appendChild(address);
         memberSection.appendChild(phone);
         memberSection.appendChild(webSite);
@@ -51,3 +57,13 @@ async function getMembers(url) {
         container.appendChild(memberSection);
     });
   }
+
+  // Function to shuffle elements of an array randomly
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1)); // Generate random index
+        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+    return array;
+}
+

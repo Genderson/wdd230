@@ -14,7 +14,8 @@
             "phone":"(356) 5442015",
             "webSiteUrl":"https://www.caseys.com",
             "imageFile":"images//CaseysCorner_350x350.webp",
-            "membershipLevel":"Silver Membership"
+            "membershipLevel":"Silver Membership",
+            "message":"Best gardering services of the city"
         },
         {
             "name":"Artisanal foods",
@@ -30,7 +31,8 @@
             "phone":"(317) 5442015",
             "webSiteUrl":"https://www.lashes.com",
             "imageFile":"images//LashesByGeorgia_350x350.webp",
-            "membershipLevel":"Gold Membership"
+            "membershipLevel":"Gold Membership",
+            "message":"Modern designer clothing. Visit us"
         },
         {
             "name":"Macadamia Desserts",
@@ -38,7 +40,8 @@
             "phone":"(317) 5442015",
             "webSiteUrl":"https://www.macadamia.com",
             "imageFile":"images//MacadamiaDesserts_350x350.webp",
-            "membershipLevel":"Silver Membership"
+            "membershipLevel":"Silver Membership",
+            "message":"The most delicious desserts you have ever tried"
         },
         {
             "name":"Ruthless",
@@ -46,7 +49,8 @@
             "phone":"(347) 5442015",
             "webSiteUrl":"https://www.ruthless.com",
             "imageFile":"images//Ruthless_compressed-350x350-1.webp",
-            "membershipLevel":"Silver Membership"
+            "membershipLevel":"Silver Membership",
+            "message":"Confidence and security in yourself. Visit us"
         },
         {
             "name":"Strabell",
@@ -54,7 +58,8 @@
             "phone":"(312) 5442015",
             "webSiteUrl":"https://www.strabell.com",
             "imageFile":"images//Strabell_Compressed-350x350-1.webp",
-            "membershipLevel":"Gold Membership"
+            "membershipLevel":"Gold Membership",
+            "message":"We dress women with elegance and glamor"            
         }
     ]
 }
