@@ -64,6 +64,28 @@ ul.navigation.open {
     grid-template-rows: repeat(5,auto);
 }
 
+#banner {
+    display: block;
+    background-color: #ffffcc;
+    padding: 10px;
+    text-align: center;
+}
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#banner > p:first-child{
+    width: 80%;
+}
+
+.hidden {
+    display: none !important;
+}
+
 .hero{
     width: 100%;
     grid-column: 1 / 11;
@@ -105,13 +127,16 @@ ul.navigation.open {
     row-gap: 20px;
 }
 .advertisement-card{
-    background: #ededed;
-    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.05);
-    border-radius: 10px;
-    padding: 20px;
-    border: 1px solid #c3c0c0;
     font-size: 0.8rem;
 }
+
+section.advertisement-card > p:first-of-type{
+    font-style: italic;
+    font-size: 0.9rem;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
 .card{
     background: #ededed;
     box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.05);

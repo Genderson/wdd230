@@ -1,6 +1,6 @@
 @media screen and (min-width: 640px) {
     body{
-        grid-template-rows: auto 55px auto auto auto auto 120px;
+        grid-template-rows: auto auto auto auto auto auto 120px;
     }
     #hamburger-menu {
         display: none;

@@ -22,6 +22,10 @@
     <meta property="og:url" content="https://genderson.github.io/wdd230/chamber/index.html">
 </head>
 <body>
+    <div id="banner" class="hidden">
+        <p>Attend the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+        <div id="mode">❌</div>
+    </div>
     <header>
         <img src="images/logo.png" alt="chamber logo">
         <h1>Boyaca Chamber of Commerce</h1>
@@ -48,8 +52,7 @@
         </p>
         <div id="main-services">
             <h2>Company spotlight</h2>
-            <div id="advertisement-container" class="grid">
-            </div>
+            <div id="advertisement-container" class="grid"></div>
 
             <!--<div id="services">
                 <section class="card">
@@ -100,6 +103,8 @@
                     <span id="current-temp"></span>
                     <span id="weather-description"></span>
                 </div>
+                <h3>Forecast</h3>
+                <div id="forecast-container"></div>
                 <!--<p>
                     <span class="label">Number of Visits: </span>
                     <span class="visits"></span>
@@ -123,5 +128,6 @@
     <script src="scripts/chamber.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/advertisements.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>
