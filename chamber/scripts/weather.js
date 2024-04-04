@@ -14,7 +14,7 @@ async function getWeather(weatherUrl) {
         const response = await fetch(weatherUrl);
         if (response.ok){
             const data = await response.json();
-            displayResults(data);
+            displayWeather(data);
         }
         else{
             throw Error(await response.test());

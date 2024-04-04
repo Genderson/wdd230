@@ -171,7 +171,7 @@ section.advertisement-card > p:first-of-type{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-#current-temp{
+#current-temp, #forecast-container span{
     display: block;
 }
 
