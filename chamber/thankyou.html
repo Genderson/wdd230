@@ -3,14 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you Registration</title>
+    <title>Genderson Barinas Guio - WDD 230 - Boyaca Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course project. Boyaca Chamber of Commerce">
     <meta name="author" content="Genderson Barinas Guio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="WDD 230 - Web Frontend Development Project Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/Genderson/wdd230/blob/main/chamber/images/homesocialmedia.png">
+    <meta property="og:url" content="https://genderson.github.io/wdd230/chamber/index.html">
 </head>
-<body id="thanks-body">
+<body  id="thanks-body">
+    <header>
+        <img src="images/logo.png" alt="chamber logo" width="100" height="100">
+        <h1>Boyaca Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button id="hamburger-menu" title="chamber-menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
     <main class="container">
         <h1>Thank You for Your Registration</h1>
         <p>We have received your registration. Thank you for signing up!</p>
     </main>
+    <footer>
+        <div class="footer-card">
+            <p>Contact us
+                Phone: (310) 2417512<br>
+                address: cra 45bis # 154 - 17 
+            </p>
+        </div>
+        <div class="footer-card">
+            <p>&copy;<span id="currentyear"></span> Genderson Barinas Guio Colombia</p>
+            <p>Chamber Project for WDD230 BYUI class</p>
+            <p>Last modification <span id="lastmodified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
 </body>
 </html>

@@ -58,11 +58,10 @@ async function getMembers(url) {
     });
   }
 
-  // Function to shuffle elements of an array randomly
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1)); // Generate random index
-        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
 }
