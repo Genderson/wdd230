@@ -292,7 +292,8 @@ textarea {
     margin-bottom: 20px;
 }
 
-.join-form input[type="submit"]
+.join-form input[type="submit"],
+#event-description a
 {
     border: none;
     background: #000;
@@ -304,6 +305,7 @@ textarea {
     box-shadow: 1px 1px 4px #999;
     cursor: pointer;
     margin-bottom: 2rem;
+    text-decoration: none;
 }
 
 .join-form input:required{
