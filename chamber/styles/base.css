@@ -293,7 +293,8 @@ textarea {
 }
 
 .join-form input[type="submit"],
-#event-description a
+#event-description a,
+.sidebar-card a
 {
     border: none;
     background: #000;
